@@ -1,0 +1,30 @@
+.videosCard{
+width: 30vmax;
+height: 48vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: no-repeat;
+background-size: cover;
+margin: 0.5vmax;
+cursor: pointer;
+}
+
+.videosCard > a > svg{
+  fill: rgb(255,255,255);
+color: whites;
+}
+
+.videosCard:hover a{
+    padding: 2.5vmax;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.671);
+    color: white;
+}
+
+.videosCard p{
+    color: pink;
+    margin: 1vmax;
+}
